@@ -1,0 +1,27 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+
+# Datasets, model weights and checkpoints
+*.csv
+*.parquet
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+models/
+checkpoints/
+distilbert_experiments/
